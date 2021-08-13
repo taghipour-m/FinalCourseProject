@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Application</name>
+    </assembly>
+    <members>
+        <member name="T:Application.Controllers.WeatherForecastController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Application.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{Application.Controllers.WeatherForecastController})">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Application.Controllers.WeatherForecastController.Get">
+            <summary>
+            
+            </summary>
+            <example>1</example>
+            <see cref="!:https://DTApp.ir/"/>
+            <seealso cref="!:https://DTApp.ir/"/>
+            <exception cref="!:https://DTApp.ir/"></exception>
+            <permission cref="!:https://DTApp.ir/"></permission>
+            <remarks>8</remarks>
+            <returns>9</returns>
+            <verb>GET</verb>
+            <group>My Group</group>
+            <url>http://localhost:9000/V1/samples/{id}?queryBool={queryBool}</url>
+            <param name="sampleHeaderParam1" cref="T:System.Single" in="header">Header param 1</param>
+            <param name="id" cref="T:System.String" in="path">The object id</param>
+            <param name="queryBool" required="true" cref="T:System.Boolean" in="query">Sample query boolean</param>
+            <response code="200"><see cref="!:SampleObject1"/>Sample object retrieved</response>
+        </member>
+        <member name="T:Application.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Application.Program.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Application.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Application.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Application.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Application.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Application.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Application.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Application.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:Application.WeatherForecast">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Application.WeatherForecast.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Application.WeatherForecast.Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Application.WeatherForecast.TemperatureC">
+            <summary>
+            دما به سانتیگراد
+            </summary>
+        </member>
+        <member name="P:Application.WeatherForecast.TemperatureF">
+            <summary>
+            دما به فارنهایت
+            </summary>
+        </member>
+        <member name="P:Application.WeatherForecast.Summary">
+            <summary>
+            توضیحات
+            </summary>
+        </member>
+    </members>
+</doc>

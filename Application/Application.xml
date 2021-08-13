@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Application</name>
+    </assembly>
+    <members>
+        <member name="M:MyApplication.Controllers.BookController.#ctor">
+            <summary>
+            default constractor
+            </summary>
+        </member>
+        <member name="M:MyApplication.Controllers.BookController.GetAllAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns>Books List</returns>
+        </member>
+        <member name="M:MyApplication.Controllers.BookController.GetByIdAsync(System.Int32)">
+            <summary>
+            Get one by Id
+            </summary>
+            <returns>A List with one record</returns>
+        </member>
+        <member name="M:MyApplication.Controllers.BookController.InsertAsync(ViewModels.Users.PostRequestViewModel)">
+            <summary>
+            Insert by input
+            </summary>
+            <returns>Book List with new record</returns>
+        </member>
+        <member name="M:MyApplication.Controllers.BookController.UpdateByIdAsync(System.Int32,ViewModels.Users.PostRequestViewModel)">
+            <summary>
+            Update by Id
+            </summary>
+            <returns>Book List with one record</returns>
+        </member>
+        <member name="M:MyApplication.Controllers.BookController.DeleteByIdAsync(System.Int32)">
+            <summary>
+            delete one object by Id
+            </summary>
+            <returns>List without deleted object</returns>
+        </member>
+        <member name="T:Application.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Application.Program.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Application.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Application.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Application.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Application.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Application.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Application.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Application.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
